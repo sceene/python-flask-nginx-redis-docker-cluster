@@ -1,4 +1,4 @@
-# Quick and easy api-cluster
+# Quick and easy Python Flask Api-Cluster
 Here is a really easy way to build a load balancing, REST api cluster using nginx, redis, flask, docker and digitalocean.
 This example is very basic and is meant to provide a functioning example only.
 

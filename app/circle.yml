@@ -1,0 +1,11 @@
+machine:
+    services:
+        - docker
+
+dependencies:
+    override:
+        - sudo pip install -U docker-compose
+
+test:
+    override:
+        - docker-compose run -d --no-deps node1

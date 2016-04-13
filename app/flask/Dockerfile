@@ -19,7 +19,7 @@ WORKDIR /v1app
 
 # clone our main project repo
 RUN git clone https://github.com/sceene/test-flask-app.git /tmp/test-flask-app/
-RUN cp -R /tmp/api/* /v1app
+RUN cp -R /tmp/test-flask-app/* /v1app
 
 # Add requirements.txt
 ADD requirements.txt /v1app
